@@ -81,7 +81,7 @@ function App() {
       <div className='row d-flex align-items-center'>
         <div className='col-12 d-flex justify-content-center'>
           {finalDraftOrder.includes(null) && (
-            <button onClick={handleRandomize} className='btn btn-primary btn-lg mb-5 mt-2' disabled>
+            <button onClick={handleRandomize} className='btn btn-primary btn-lg mb-5 mt-2'>
               Randomize
             </button>
           )}
